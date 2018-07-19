@@ -12,6 +12,15 @@ Multichar_Symbols
 ! Other symbols
 %>      ! Morpheme boundary
 
+LEXICON Root
+
+Prefixes ;
+
+
+LEXICON Prefixes
+
+%<sg%>:m NounRoot1 ;
+%<pl%>:b NounRoot2 ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!                       M O R P H O T A C T I C S                         !!!
@@ -32,11 +41,15 @@ LEXICON RegNounInfl
 !!!                          L E X I C O N                                  !!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-LEXICON NounRoot
+LEXICON NounRoot1
 
-ut RegNounInfl ; ! person
-ndap RegNounInfl ; ! house
+ut # ; ! "person"
+an # ; 
 
+LEXICON NounRoot2
+
+ut:ot # ; 
+an:on # ;
 
 
 
