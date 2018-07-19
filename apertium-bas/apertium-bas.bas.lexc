@@ -6,8 +6,8 @@ Multichar_Symbols
 %<n%>   ! Noun
 
 ! Number morphology
-%<pl%>  ! Plural
 %<sg%>  ! Singular
+%<pl%>  ! Plural
 
 ! Other symbols
 %>      ! Morpheme boundary
@@ -17,10 +17,10 @@ Multichar_Symbols
 !!!                       M O R P H O T A C T I C S                         !!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-LEXICON Root
+LEXICON Ninfl
 
-NounRoot ;
-
+%<sg%>:m Nouns ;
+%<pl%>:b Nouns ;
 
 LEXICON RegNounInfl
 
@@ -34,8 +34,10 @@ LEXICON RegNounInfl
 
 LEXICON NounRoot
 
-house:house RegNounInfl ; ! A noun
-ndap
+ut RegNounInfl ; ! person
+ndap RegNounInfl ; ! house
+
+
 
 
 
